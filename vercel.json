@@ -9,12 +9,12 @@
         "src": "/images/(.*)",
         "dest": "/public/images/"
     },
-     {
-        "src": "/build/assets/(.css)",
-        "dest": "/resources/css/"
+    {
+    "src": "/build/assets/*.css",
+    "dest": "/resources/css/app.css"
     },
      {
-        "src": "/build/assets/(.js)",
+        "src": "/build/assets/*.js",
         "dest": "/resources/js/"
     },
    {
