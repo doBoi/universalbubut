@@ -5,23 +5,23 @@
         "api/*.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
-         {
-        "src": "/images/(.*)",
-        "dest": "/public/images/"
-    },
-    {
-    "src": "/build/assets/*.css",
-    "dest": "/resources/css/app.css"
-    },
-     {
-        "src": "/build/assets/*.js",
-        "dest": "/resources/js/"
-    },
-   {
-        "src": "/(.*)",
-        "dest": "/api/index.php"
-    }
-],
+        {
+            "src": "/images/(.*)",
+            "dest": "/public/images/$1"
+        },
+        {
+            "src": "/build/assets/(.*).css",
+            "dest": "/resources/css/$1.css"
+        },
+        {
+            "src": "/build/assets/(.*).js",
+            "dest": "/resources/js/$1.js"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ],
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
