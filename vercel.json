@@ -6,6 +6,14 @@
     },
     "routes": [
          {
+        "src": "/buils/assets/(.css)",
+        "dest": "/resources/css/app.css"
+    },
+     {
+        "src": "/buils/assets/(.js)",
+        "dest": "/resources/js/app.js"
+    },
+         {
         "src": "/images/(.*)",
         "dest": "/public/images/"
     },
