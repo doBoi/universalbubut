@@ -27,6 +27,8 @@
         "APP_DEBUG": "true",
         "APP_URL": "https://universalbubut.com",
         "APP_KEY":"base64:8XyGTQFx1920cQuM1rr479JPTLaYnJfqQftXHBBmoUU=",
+        "DB_CONNECTION":"sqlite",
+
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
