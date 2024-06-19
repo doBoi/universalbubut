@@ -5,6 +5,10 @@
         "api/*.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
+         {
+            "src": "/database/database.sqlite",
+            "dest": "/database/database.sqlite"
+        },
         {
             "src": "/images/(.*)",
             "dest": "/public/images/$1"
